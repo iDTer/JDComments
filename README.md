@@ -7,7 +7,10 @@ PyCharm
 
 ### 主要思想
 
-爬取京东商城商品的评论，这里我采用了两种方法去爬取：1、通过JSON，这个方法是首先想到的，但是实施起来却让我琢磨了很久，因为直接调用产品评论的JSON数据时是没有返回的，经好朋友提醒，在使用Burpsuit调试后发现，需要加上response表项才会有回显，应该是京东的反爬取措施，总之，使用response后就work了。2、使用selenium包，模拟自动爬取，使用webdriver里的PhantomJS来模拟点击换页，通过XPath或者CSS_SELECTOR来定位评论元素。
+爬取京东商城商品的评论，这里我采用了两种方法去爬取：
+
+1. 通过JSON，这个方法是首先想到的，但是实施起来却让我琢磨了很久，因为直接调用产品评论的JSON数据时是没有返回的，经好朋友提醒，在使用Burpsuit调试后发现，需要加上response表项才会有回显，应该是京东的反爬取措施，总之，使用response后就work了。
+2. 使用selenium包，模拟自动爬取，使用webdriver里的PhantomJS来模拟点击换页，通过XPath或者CSS_SELECTOR来定位评论元素。
 
 ### 方法一
 
