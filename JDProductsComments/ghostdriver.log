@@ -1,0 +1,45 @@
+[INFO  - 2019-06-05T02:30:31.756Z] GhostDriver - Main - running on port 4589
+[INFO  - 2019-06-05T02:30:33.833Z] Session [e51b0670-8739-11e9-9c38-910d8afb16bc] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-06-05T02:30:33.833Z] Session [e51b0670-8739-11e9-9c38-910d8afb16bc] - page.customHeaders:  - {}
+[INFO  - 2019-06-05T02:30:33.834Z] Session [e51b0670-8739-11e9-9c38-910d8afb16bc] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-06-05T02:30:33.834Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e51b0670-8739-11e9-9c38-910d8afb16bc
+[ERROR - 2019-06-05T02:30:39.531Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1559701839485
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-05T02:30:40.870Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1559701840805
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-05T02:30:41.924Z] Session [e51b0670-8739-11e9-9c38-910d8afb16bc] - page.onError - msg: TypeError: undefined is not an object (evaluating 'a.nodeName')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-05T02:30:41.924Z] Session [e51b0670-8739-11e9-9c38-910d8afb16bc] - page.onError - stack:
+  on (https://newbuz.360buyimg.com/video/4.2/video.hls.min.js:12)
+  a (https://static.360buyimg.com/item/unite/1.0.76/components/default/??preview/contrast.js,preview/panorama.js,videoBox/videoBox.js,videoBox/videoTrack.js,videoBox/videoAnchorPoint.js,videoBox/videoTrailer.js,common/plugins/jQuery.jqueryzoom.js,common/plugins/jQuery.zoom.js:9)
+  (anonymous function) (https://static.360buyimg.com/item/unite/1.0.76/components/default/??preview/contrast.js,preview/panorama.js,videoBox/videoBox.js,videoBox/videoTrack.js,videoBox/videoAnchorPoint.js,videoBox/videoTrailer.js,common/plugins/jQuery.jqueryzoom.js,common/plugins/jQuery.zoom.js:9)
+  onload (https://static.360buyimg.com/item/unite/1.0.76/components/default/??preview/contrast.js,preview/panorama.js,videoBox/videoBox.js,videoBox/videoTrack.js,videoBox/videoAnchorPoint.js,videoBox/videoTrailer.js,common/plugins/jQuery.jqueryzoom.js,common/plugins/jQuery.zoom.js:9)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-05T02:30:42.464Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1559701842422
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-05T02:30:44.399Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1559701844368
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-05T02:30:59.722Z] Session [e51b0670-8739-11e9-9c38-910d8afb16bc] - page.onError - msg: TypeError: undefined is not an object (evaluating 'a.nodeName')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-06-05T02:30:59.722Z] Session [e51b0670-8739-11e9-9c38-910d8afb16bc] - page.onError - stack:
+  on (https://newbuz.360buyimg.com/video/4.2/video.hls.min.js:12)
+  a (https://static.360buyimg.com/item/unite/1.0.76/components/default/??preview/contrast.js,preview/panorama.js,videoBox/videoBox.js,videoBox/videoTrack.js,videoBox/videoAnchorPoint.js,videoBox/videoTrailer.js,common/plugins/jQuery.jqueryzoom.js,common/plugins/jQuery.zoom.js:9)
+  d (https://static.360buyimg.com/item/unite/1.0.76/components/default/??preview/contrast.js,preview/panorama.js,videoBox/videoBox.js,videoBox/videoTrack.js,videoBox/videoAnchorPoint.js,videoBox/videoTrailer.js,common/plugins/jQuery.jqueryzoom.js,common/plugins/jQuery.zoom.js:9)
+  o (https://static.360buyimg.com/item/unite/1.0.76/components/default/??preview/contrast.js,preview/panorama.js,videoBox/videoBox.js,videoBox/videoTrack.js,videoBox/videoAnchorPoint.js,videoBox/videoTrailer.js,common/plugins/jQuery.jqueryzoom.js,common/plugins/jQuery.zoom.js:9)
+  (anonymous function) (https://static.360buyimg.com/item/unite/1.0.76/components/default/??preview/contrast.js,preview/panorama.js,videoBox/videoBox.js,videoBox/videoTrack.js,videoBox/videoAnchorPoint.js,videoBox/videoTrailer.js,common/plugins/jQuery.jqueryzoom.js,common/plugins/jQuery.zoom.js:9)
+  getResolution (https://static.360buyimg.com/item/unite/1.0.76/components/default/??preview/contrast.js,preview/panorama.js,videoBox/videoBox.js,videoBox/videoTrack.js,videoBox/videoAnchorPoint.js,videoBox/videoTrailer.js,common/plugins/jQuery.jqueryzoom.js,common/plugins/jQuery.zoom.js:9)
+  initPlayer (https://static.360buyimg.com/item/unite/1.0.76/components/default/??preview/contrast.js,preview/panorama.js,videoBox/videoBox.js,videoBox/videoTrack.js,videoBox/videoAnchorPoint.js,videoBox/videoTrailer.js,common/plugins/jQuery.jqueryzoom.js,common/plugins/jQuery.zoom.js:9)
+  setData (https://static.360buyimg.com/item/unite/1.0.76/components/default/comment/??comment.js:3)
+  success (https://static.360buyimg.com/item/unite/1.0.76/components/default/comment/??comment.js:3)
+  resolveWith (https://misc.360buyimg.com/??jdf/lib/jquery-1.6.4.js,jdf/1.0.0/unit/base/1.0.0/base.js,jdf/1.0.0/ui/ui/1.0.0/ui.js:2)
+  w (https://misc.360buyimg.com/??jdf/lib/jquery-1.6.4.js,jdf/1.0.0/unit/base/1.0.0/base.js,jdf/1.0.0/ui/ui/1.0.0/ui.js:4)
+  onreadystatechange (https://misc.360buyimg.com/??jdf/lib/jquery-1.6.4.js,jdf/1.0.0/unit/base/1.0.0/base.js,jdf/1.0.0/ui/ui/1.0.0/ui.js:4)
+
+  phantomjs://platform/console++.js:263 in error
